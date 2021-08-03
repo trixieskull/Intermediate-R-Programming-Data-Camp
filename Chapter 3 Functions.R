@@ -191,7 +191,7 @@ qplot(wt, hp)
 library("ggplot2")
 
 # Retry the qplot() function
-qplot(wt, hp)
+qplot(mtcars$wt, mtcars$hp)
 
 # Check out the currently attached packages again
 search()
